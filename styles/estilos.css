@@ -1,0 +1,230 @@
+/*CON CLASE LE DA ESTILO SOLO A LA CLASE QUE QUIERO ESTILAR EN EL HTML*/
+
+
+/*  ESTILOS MENU TOP */
+
+
+#rsocial{
+    
+    width: 100%;
+    height: 55px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #6AA84F;
+    color: honeydew;     
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+
+}
+
+#socialicon li{
+    width: 25px;
+    margin-top: 0%;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    float: right;
+}
+
+#iconpapel {
+    clear: both;
+    color: ghostwhite;
+    padding: 20px;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    float: left;
+}
+#welcome{
+    font-size: 15px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#logoTop{
+    width: 100px;
+    height: 50px;
+    margin-top: 45px;
+    
+}
+#menuhome {
+    width: 100%;
+    margin-top: 0px;
+    background-image: linear-gradient(#000000, #5dcf7c);
+    position:fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+}
+#menuTop li{
+   
+    margin-top: 45px;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;  
+    float:right;
+}
+
+.menufonts{
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+
+
+
+h1{
+    margin-top: 30px;
+    color: rgb(6, 165, 67);
+    padding-top: 100px;
+}
+.titulo2{
+    color: rgb(10, 67, 189);
+    
+}
+
+
+
+/*SIN CLASE APARECE EN TODAS LAS PAGINAS QUE LLAME AL ARCHIVO DE ESTILO*/
+h3{
+    color: darkorange;
+}
+
+p {
+    color: rgb(59, 59, 57);
+}
+
+#emtext{
+    color: green;
+}
+
+#emform{
+    color: green;
+}
+/*TABLE ABOUTS*/
+
+#tableabouts{
+width: 100%;
+margin-top: 100px;
+}
+/*TABLE BLOG*/
+
+#tableblog1 {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+    
+  }
+  #tdabt{
+      
+      padding-left: 10%;
+      padding-right: 10%;
+    border: 0px solid #c70606;
+  }
+
+  #tdabt1{
+      
+    padding-right: 10%;
+    border: 0px solid #c70606;
+}
+
+  #trabt{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 50%;
+  border: 0px solid #c70606;
+}
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /*TABLA PRODUCTOS*/
+
+  #thp{
+    color: lightyellow;
+    background-color: rgb(1, 150, 38);
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  #tdp{
+      
+      text-align: center;
+  }
+
+  /* ESTLOS DE LISTAS */
+
+    ol{
+        list-style-type: none;
+    }
+
+    .p1--italica{
+        color: goldenrod;
+        font-style: italic;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .p2--italica{
+        color: hotpink;
+        background-color: indigo;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: normal;
+        word-spacing: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .p3--italica{
+        color: rgb(255, 255, 255);
+        background-image: url(http://eduino.hol.es/images/fondo-valle.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: normal;
+        word-spacing: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    /*FORMULAROIO*/
+
+    #divform{
+        margin-top: 150px;
+
+    }
+    /* PIE DE PAGINA - FOOTER */
+
+    footer{
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        clear:both;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+
+    .paraTransicion:hover {
+        transition: 3s;
+        font-size: 2rem;
+      }
+
+    #linkFoot:link{
+        color: #009E0F;
+    }

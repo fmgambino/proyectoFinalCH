@@ -1,0 +1,69 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+header {
+  background-image: linear-gradient(#32a852, #5dcf7c);
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  height: 400px;
+}
+
+header nav .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 40px;
+  font-size: 1.2rem;
+}
+
+.flexMenu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.flexMenu li a:hover {
+  background-color: white;
+  color: green;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #e1eef7;
+  width: 100%;
+  height: 100px;
+  padding: 50px 0 0 0; 
+}
+
+footer h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+.paraTransicion:hover {
+  transition: 3s;
+  font-size: 3rem;
+}
