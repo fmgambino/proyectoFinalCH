@@ -1,55 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/hdsqazxtw/image/upload/v1558445734/favicon-16x16_glx69e.png">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/estilos.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="fmgambino" />
+    <title>Contact - EDUINO®</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.ico">
+    
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://kit.fontawesome.com/d5dd332af7.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <script src="https://kit.fontawesome.com/d5dd332af7.js" crossorigin="anonymous"></script>
-      <title>CONTACTS - EDUINO®</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+    <!-- Theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="../assets/theme/css/styles.css">
+    <link rel="stylesheet" href="../css/myStyles/custom.css">
+
+    <!-- Mis Hojas de Estilos-->
+    <link rel="stylesheet" href="css/myStyles/estilos.css">
+    <link rel="stylesheet" href="css/myStyles/styleFlexbox.css">
+    <link rel="stylesheet" href="css/myStyles/styleGrid.css">
+
+  
 
 </head>
 <body>
-  <header id="menu">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#page-top"><img src="../assets/img/EDUINO LOGO PNG BLANCO.png" width="150" alt="logo, eduino" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/abouts.html">Abouts</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/cursos.html">Course</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contacts.html">Contact</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-    <nav id="rsocial">
-        <li id="iconpapel"><i class="fas fa-paper-plane"> </i><a id="welcome"> Bienvenidos a una nueva experiencia Educativa...</a></li> 
-       <ul id="socialicon">
-        
-        <li><i class="fab fa-facebook"></i><a href="https://facebook.com/electronica.gambino.tuc"></a></li>
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-whatsapp"></i></li>
-       </ul>      
-    </nav>
-
-    <nav id="menuhome">
-                
-      <ul id="menuTop">
-      <img id="logoTop" src="../images/EDUINO LOGO PNG BLANCO.png" alt="imagen, ropa" width="100" height="50">
-
-      <li><a class="menufonts" href="../pages/contacts.html">CONTACTS</a></li>
-      <li><a class="menufonts" href="../pages/blog.html">BLOG</a></li>
-      <li><a class="menufonts" href="../pages/products.html">PRODUCTS</a></li>
-      <li><a class="menufonts" href="../pages/cursos.html">CURSOS</a></li>
-      <li><a class="menufonts" href="../pages/abouts.html">ABOUTS</a></li>
-      <li><a class="menufonts" href="../index.html">HOME</a></li>                 
-      
-    </ul>
-  </nav>
-
+          <!-- Contact-->
+          <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+ 
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
             
 </header>
 
     
+        <!-- Footer-->
+        <footer class="footer py-4">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-lg-4 text-lg-start"> EDUINO® 2021 Copyright &copy; by fmgambino</div>
+                  <div class="col-lg-4 my-3 my-lg-0">
+                      <a class="btn btn-dark btn-social mx-2" href="https://github.com/fmgambino"><i class="fab fa-github"></i></a>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/electronica.gambino.tuc"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/electronicagambino/"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/fmgambino/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div class="col-lg-4 text-lg-end">
+                      <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                      <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                  </div>
+              </div>
+          </div>
+      </footer>
 
- <div id="divform">
+
+ <!-- <div id="divform">
     <h3>Formulario de Contacto</h3>
     <em id="emform">Complete el siguiente Formulario:</em>
     <br>
@@ -97,6 +184,6 @@
           <input type="reset" value="Limpiar"></center>
         </fieldset>
     </form>
-</div>
+</div> -->
 </body>
 </html>
