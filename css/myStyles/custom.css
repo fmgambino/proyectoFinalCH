@@ -1,0 +1,58 @@
+#rsocial{
+    
+    
+    height: 55px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #6AA84F;
+    color: honeydew;     
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+
+}
+
+#socialicon li{
+    
+    margin-top: 1%;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    float: right;
+}
+
+#iconpapel {
+    clear: both;
+    color: ghostwhite;
+    margin-top: 1%;
+    padding-left: 20px;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    float: left;
+}
+#welcome{
+    font-size: 15px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: transparent;
+    background-image: linear-gradient(#000000, #5dcf7c);
+}
+
+#mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color:transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    z-index: 0;
+}
+
+
+
